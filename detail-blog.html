@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Blog</title>
+</head>
+ <nav>
+    <a href="index.html">← Kembali ke Blog</a>
+  </nav>
+<body>
+  <h1>Detail Blog</h1>
+
+  <!-- Link kembali ke halaman Blog -->
+ 
+  <hr>
+
+  <article>
+    <!-- Cover Blog -->
+    <section>
+      <figure>
+        <img src="/image/2.jpeg" alt="Cover Blog" width="900" height="400">
+        <figcaption>Cover Blog</figcaption>
+      </figure>
+    </section>
+
+    <!-- Info Author -->
+    <section>
+      <figure>
+        <img src="/image/rudi.JPG" alt="Foto Author" width="100">
+        <figcaption>
+          <strong>Oleh Rudi Alva</strong> — <time datetime="2025-09-04">4 September 2025</time>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- Judul Blog -->
+    <h2>Pembelajaran HTML</h2>
+
+    <!-- Label Blog -->
+    <h3>Label</h3>
+    <ul>
+      <li>HTML</li>
+      <li>Blog</li>
+      <li>Praktikum</li>
+    </ul>
+
+    <!-- Deskripsi Blog -->
+    <h3>Deskripsi Blog</h3>
+    <p>
+      Blog ini membahas tentang pembelajaran HTML secara lengkap dan mendetail. Di dalamnya dijelaskan tentang struktur dasar halaman web, berbagai tag HTML yang penting, cara menampilkan teks, gambar, daftar, link, form, dan elemen multimedia lainnya. Pembaca juga akan dipandu bagaimana mengatur layout dasar halaman, menambahkan atribut, serta memahami konsep semantik HTML agar halaman web menjadi lebih terstruktur dan mudah dibaca. Tujuannya agar pembaca dapat memahami dasar-dasar HTML secara praktis dan langsung bisa diterapkan untuk membuat halaman web sederhana hingga lebih kompleks. Blog ini juga memberikan tips dan contoh penerapan HTML dalam proyek nyata agar proses belajar lebih menyenangkan dan efektif.
+    </p>
+
+    <!-- Form Komentar -->
+    <section>
+      <h3>Tinggalkan Komentar</h3>
+      <form action="#" method="post">
+        <p>
+          <label for="nama">Nama:</label><br>
+          <input type="text" id="nama" name="nama" required>
+        </p>
+        <p>
+          <label for="foto">URL Foto (opsional):</label><br>
+          <input type="url" id="foto" name="foto">
+        </p>
+        <p>
+          <label for="komentar">Komentar:</label><br>
+          <textarea id="komentar" name="komentar" rows="4" required></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Kirim Komentar">
+          <input type="reset" value="Reset">
+        </p>
+      </form>
+    </section>
+
+    <!-- Daftar Komentar -->
+    <section>
+      <h3>Komentar</h3>
+      <table border="0" width="100%">
+        <tr>
+          <td width="80" valign="top">
+            <img src="/image/7.jpeg" alt="Sesil" width="60"><br>
+            <strong>Michie</strong><br> <em>5 jam yang lalu</em>
+          </td>
+          <td valign="top">
+            Semangat ya, mungkin itu sudah jalannya Tuhan untuk membuat kita kuat.
+          </td>
+        </tr>
+        <tr>
+          <td width="80" valign="top">
+            <img src="image/4.jpg" alt="Milan" width="60"><br>
+            <strong>Michie</strong><br> <em>4 jam yang lalu</em>
+          </td>
+          <td valign="top">
+            Soalnya yang dipikirkan manusia pasti berbeda sama yang dipikirkan oleh Tuhan.
+          </td>
+        </tr>
+        <tr>
+          <td width="80" valign="top">
+            <img src="/image/5.jpeg" alt="Ola" width="60"><br>
+            <strong>Ola</strong><br> <em>3 jam yang lalu</em>
+          </td>
+          <td valign="top">
+            Betul bestie, gue setuju dengan apa yang kamu bilang bestieeeku.
+          </td>
+        </tr>
+        <tr>
+          <td width="80" valign="top">
+            <img src="/image/6.jpg" alt="richie" width="60"><br>
+            <strong>Niel</strong><br> <em>2 jam yang lalu</em>
+          </td>
+          <td valign="top">
+            Makasih ya guys atas dukungannya, gue jadi semangat.
+          </td>
+        </tr>
+        <tr>
+          <td width="80" valign="top">
+            <img src="/image/8.jpg" alt="Lia" width="60"><br>
+            <strong>Lia</strong><br> <em>1 jam yang lalu</em>
+          </td>
+          <td valign="top">
+            Materinya sangat mudah diikuti, terima kasih!
+          </td>
+        </tr>
+        <tr>
+          <td width="80" valign="top">
+            <img src="/image/rudi.JPG" alt="jo" width="60"><br>
+            <strong>Rina</strong><br> <em>15 menit yang lalu</em>
+          </td>
+          <td valign="top">
+            Terimakasih semuanya saya akan mencoba lebih baik lagi.
+          </td>
+        </tr>
+      </table>
+    </section>
+  </article>
+</body>
+</html>
